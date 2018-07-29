@@ -1,0 +1,137 @@
+/* Taken From 
+
+   https://www.youtube.com/watch?v=Zlyzpa3RY3Y
+   and the followup videos.
+
+   Used auto sass compiler in vscode to compile sass file.
+
+*/
+
+/* Font Awesome CSS Import */
+@import url("./fontawesome-all.min.css");
+
+/* Fonts upload*/
+@import url("./fonts.css");
+@import "settings";
+@import "navbar";
+@import "overlay";
+@import "features";
+@import "company";
+@import "footer";
+
+/* Full Margin and Padding reset */
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+/* Whole body reset */
+
+html, body
+{
+    padding: 0;
+    margin: 0;
+    background-color: $neutral;
+    font-family: $fonts;
+}
+
+/* Container class for the entire webpage */
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container h3
+{
+    line-height:2.5;
+}
+
+
+
+/* Paragraph settings */
+p 
+{
+text-align:justify; 
+line-height:1.6; 
+margin-bottom: 10px;
+} 
+
+/* Banner */
+.banner
+{
+    width: 100%;
+    display: block;
+}
+
+.banner > .banner-image
+{
+    width: 100%;
+    display: block;
+}
+
+/* Media Queries */
+/* Collapsing the navigation bar and adjusting the brand name. */
+@media all and (max-width:845px)
+{
+    header ul
+    {
+        display: none;
+    }
+
+    header
+    {
+        height: 38px;
+    }
+
+    header h2
+    {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    header .fa-bars
+    {
+        display: block;
+        float: right;
+        padding-top: 10px;
+        font-size: 16px;
+    }
+}
+
+/* to collapse the features into 2 items per row */
+@media all and (max-width: 768px)
+{
+    .three-col-wrapper
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* to transform the features section into 1 item per row*/
+@media all and (max-width: 500px)
+{
+    .three-col-wrapper
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Text Alignment for title in showcase banner */
+@media (max-width: 800px)
+{
+    #showcase h1
+    {
+      font-size: 30px;
+    }
+}
+
+/* Padding adjustments for showcase */
+@media (max-width: 500px)
+{
+    #showcase .showcase-content
+    {
+        padding: 40px 10px;
+    }
+}

@@ -1,0 +1,81 @@
+@import "settings";
+
+/* FEATURES Section */
+/* One Column Wrapper for divs */
+.one-col-wrapper
+{
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    line-height:2.0;
+}
+
+.one-col-wrapper > div > p {
+    text-align : center;
+    line-height:1.6;
+}
+
+/* Adaptive 3-2-1 column wrapper for divs */
+.three-col-wrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 5px;
+}
+
+/* Border for individual div blocks */
+.three-col-wrapper > div
+{
+    border: $grey1 3px solid;
+    border-radius: 10px;
+    line-height:1.6;
+}
+
+.three-col-wrapper > div > p {
+    text-align : center;
+    line-height:1.6;
+}
+
+.fai
+{
+    line-height: 2;
+}
+
+/* Sizes and colours for fontawesome icons in features */
+
+#features .fa
+{
+    font-size: 60px;
+    color:$sky1;
+}
+
+#features .fa:hover
+{
+    color: #ff3b3f;
+}
+
+/* Sample divs for scroll check */
+.one
+{
+    height: 400px;
+    background: red;
+}
+
+.two
+{
+    height: 400px;
+    background: yellow;
+}
+
+.three
+{
+    height: 400px;
+    background: green;
+}
+
+.four
+{
+    height: 400px;
+    background: blue;
+}

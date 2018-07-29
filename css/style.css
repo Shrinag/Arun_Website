@@ -1,0 +1,396 @@
+/* Taken From 
+
+   https://www.youtube.com/watch?v=Zlyzpa3RY3Y
+   and the followup videos.
+
+   Used auto sass compiler in vscode to compile sass file.
+
+*/
+/* Font Awesome CSS Import */
+@import url("./fontawesome-all.min.css");
+/* Fonts upload*/
+@import url("./fonts.css");
+/* Font variables */
+/* Colours */
+/* Navigation Bar Colours */
+/* Font variables */
+/* Colours */
+/* Navigation Bar Colours */
+/* Minor adjustment for the navbar */
+header .container {
+  padding: 0 30px;
+}
+
+/* Header Tweaks */
+header {
+  background-color: #ff3b3f;
+  float: left;
+  width: 100%;
+}
+
+/* Brand Name */
+header h2 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  float: left;
+  padding-top: 7px;
+  font-size: 20px;
+}
+
+/* Link adjustment for brand name */
+header h2 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Hover colour for link in brand name */
+header h2 a:hover {
+  color: #ffff00;
+}
+
+/* Removing bullets and setting up list items */
+header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+/* Uniting Header navbar items as a block */
+header ul li {
+  display: inline-block;
+}
+
+/* display adjustments to navbar links */
+header ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  display: block;
+}
+
+/* Hover colour for links. */
+header ul li a:hover {
+  color: #ffff00;
+}
+
+/* Hamburger icon in navbar */
+header .fa-bars {
+  color: #ffffff;
+  display: none;
+}
+
+/* Font variables */
+/* Colours */
+/* Navigation Bar Colours */
+/* Overlay settings */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+
+/* Removing bullets and setting up list items */
+.overlay ul {
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+/* Uniting Header navbar items as a block */
+.overlay ul li {
+  display: block;
+}
+
+/* display adjustments to overlay links */
+.overlay ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  display: block;
+}
+
+/* Hover colour for links. */
+.overlay ul li a:hover {
+  color: #ffff00;
+}
+
+/* Overlay menu close icon */
+.overlay .fa-times {
+  display: block;
+  color: #ffffff;
+  float: right;
+  padding-top: 10px;
+}
+
+/* Overlay menu list items */
+.overlay ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  float: center;
+}
+
+/* Minor adjustment for the Overlay Menu */
+.overlay .container {
+  padding: 0 30px;
+}
+
+/* Font variables */
+/* Colours */
+/* Navigation Bar Colours */
+/* FEATURES Section */
+/* One Column Wrapper for divs */
+.one-col-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  text-align: center;
+  line-height: 2.0;
+}
+
+.one-col-wrapper > div > p {
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Adaptive 3-2-1 column wrapper for divs */
+.three-col-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  grid-gap: 5px;
+}
+
+/* Border for individual div blocks */
+.three-col-wrapper > div {
+  border: #c3c3c3 3px solid;
+  border-radius: 10px;
+  line-height: 1.6;
+}
+
+.three-col-wrapper > div > p {
+  text-align: center;
+  line-height: 1.6;
+}
+
+.fai {
+  line-height: 2;
+}
+
+/* Sizes and colours for fontawesome icons in features */
+#features .fa {
+  font-size: 60px;
+  color: #90afc5;
+}
+
+#features .fa:hover {
+  color: #ff3b3f;
+}
+
+/* Sample divs for scroll check */
+.one {
+  height: 400px;
+  background: red;
+}
+
+.two {
+  height: 400px;
+  background: yellow;
+}
+
+.three {
+  height: 400px;
+  background: green;
+}
+
+.four {
+  height: 400px;
+  background: blue;
+}
+
+/* Font variables */
+/* Colours */
+/* Navigation Bar Colours */
+/* COMPANY */
+/* background settings */
+#company {
+  background: #444343;
+  float: left;
+  padding: 10px 0px 0px 0px;
+  width: 100%;
+}
+
+/* readme section */
+.readme {
+  margin: 0px;
+  padding-bottom: 10px;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+/* social section */
+.social {
+  margin: 0px;
+  padding-bottom: 10px;
+  text-align: center;
+  float: right;
+  width: 50%;
+}
+
+#company a {
+  color: #90afc5;
+  text-decoration: none;
+}
+
+#company a:hover {
+  color: #ff420e;
+}
+
+/* Heading in readme section */
+.readme h4 {
+  margin: 0px;
+  color: #ededed;
+}
+
+/* Heading in social section */
+.social h4 {
+  margin: 0px;
+  color: #ededed;
+}
+
+/* Colours for fontawesome icons in company footer */
+#company .fab {
+  color: #90afc5;
+}
+
+#company .fa {
+  color: #90afc5;
+}
+
+/* Font variables */
+/* Colours */
+/* Navigation Bar Colours */
+/* FOOTER */
+/* Footer settings */
+footer {
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background: #000000;
+  color: #ffffff;
+  padding: 10px 0px 0px 0px;
+  width: 100%;
+}
+
+/* line adjustment */
+footer p {
+  margin: 0px;
+  line-height: 3.0;
+  text-align: center;
+}
+
+/* Full Margin and Padding reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Whole body reset */
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #f8f8f8;
+  font-family: "Source Sans Pro", "Noto Sans", "Open Sans", "Pt Sans", "Lato", sans-serif;
+}
+
+/* Container class for the entire webpage */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container h3 {
+  line-height: 2.5;
+}
+
+/* Paragraph settings */
+p {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.banner > .banner-image {
+  width: 100%;
+  display: block;
+}
+
+/* Media Queries */
+/* Collapsing the navigation bar and adjusting the brand name. */
+@media all and (max-width: 845px) {
+  header ul {
+    display: none;
+  }
+  header {
+    height: 38px;
+  }
+  header h2 {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  header .fa-bars {
+    display: block;
+    float: right;
+    padding-top: 10px;
+    font-size: 16px;
+  }
+}
+
+/* to collapse the features into 2 items per row */
+@media all and (max-width: 768px) {
+  .three-col-wrapper {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* to transform the features section into 1 item per row*/
+@media all and (max-width: 500px) {
+  .three-col-wrapper {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+/* Text Alignment for title in showcase banner */
+@media (max-width: 800px) {
+  #showcase h1 {
+    font-size: 30px;
+  }
+}
+
+/* Padding adjustments for showcase */
+@media (max-width: 500px) {
+  #showcase .showcase-content {
+    padding: 40px 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

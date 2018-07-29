@@ -1,0 +1,23 @@
+@import "settings";
+
+/* FOOTER */
+/* Footer settings */
+footer
+{
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background: $black;
+    //margin:0px;
+    color: $white;
+    padding:  10px 0px 0px 0px;
+    width: 100%;
+}
+
+/* line adjustment */
+footer p
+{
+    margin: 0px;
+    line-height: 3.0;
+    text-align: center;
+}

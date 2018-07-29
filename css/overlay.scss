@@ -1,0 +1,66 @@
+@import "settings";
+
+/* Overlay settings */
+.overlay
+{
+    background-color: $grey3;
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+/* Removing bullets and setting up list items */
+.overlay ul
+{
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* Uniting Header navbar items as a block */
+.overlay ul li
+{
+    display: block;
+}
+
+/* display adjustments to overlay links */
+.overlay ul li a
+{
+    color: $white;
+    text-decoration: none;
+    text-transform : uppercase;
+    padding: 10px;
+    display: block;
+}
+
+/* Hover colour for links. */
+.overlay ul li a:hover
+{
+   color: $yellow;
+}
+
+/* Overlay menu close icon */
+.overlay .fa-times
+{
+    display: block;
+    color:$white;
+    float: right;
+    padding-top: 10px;
+}
+
+/* Overlay menu list items */
+.overlay ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float: center;
+}
+
+/* Minor adjustment for the Overlay Menu */
+.overlay .container
+{
+    padding: 0 30px;
+}

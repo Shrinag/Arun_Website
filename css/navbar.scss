@@ -1,0 +1,77 @@
+@import "settings";
+
+/* Minor adjustment for the navbar */
+header .container
+{
+    padding: 0 30px;
+}
+
+/* Header Tweaks */
+header
+{
+    background-color: $watermelon;
+    float: left;
+    width: 100%;
+}
+
+/* Brand Name */
+header h2
+{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    float: left;
+    padding-top: 7px;
+    font-size: 20px;
+}
+
+/* Link adjustment for brand name */
+header h2 a
+{
+    text-decoration: none;
+    color: $white;
+}
+
+/* Hover colour for link in brand name */
+header h2 a:hover
+{
+    color:$yellow;
+}
+
+/* Removing bullets and setting up list items */
+header ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+/* Uniting Header navbar items as a block */
+header ul li
+{
+    display: inline-block;
+}
+
+/* display adjustments to navbar links */
+header ul li a
+{
+    color: $white;
+    text-decoration: none;
+    text-transform : uppercase;
+    padding: 10px;
+    display: block;
+}
+
+/* Hover colour for links. */
+header ul li a:hover
+{
+   color: $yellow;
+}
+
+/* Hamburger icon in navbar */
+header .fa-bars
+{
+    color: $white;
+    display: none;
+}

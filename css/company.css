@@ -1,0 +1,60 @@
+/* Font variables */
+/* Colours */
+/* Navigation Bar Colours */
+/* COMPANY */
+/* background settings */
+#company {
+  background: #444343;
+  float: left;
+  padding: 10px 0px 0px 0px;
+  width: 100%;
+}
+
+/* readme section */
+.readme {
+  margin: 0px;
+  padding-bottom: 10px;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+/* social section */
+.social {
+  margin: 0px;
+  padding-bottom: 10px;
+  text-align: center;
+  float: right;
+  width: 50%;
+}
+
+#company a {
+  color: #90afc5;
+  text-decoration: none;
+}
+
+#company a:hover {
+  color: #ff420e;
+}
+
+/* Heading in readme section */
+.readme h4 {
+  margin: 0px;
+  color: #ededed;
+}
+
+/* Heading in social section */
+.social h4 {
+  margin: 0px;
+  color: #ededed;
+}
+
+/* Colours for fontawesome icons in company footer */
+#company .fab {
+  color: #90afc5;
+}
+
+#company .fa {
+  color: #90afc5;
+}
+/*# sourceMappingURL=company.css.map */

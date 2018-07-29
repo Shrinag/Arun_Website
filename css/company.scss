@@ -1,0 +1,67 @@
+@import "settings";
+
+/* COMPANY */
+/* background settings */
+#company
+{
+    background: $grey8;
+    float:left;
+    padding: 10px 0px 0px 0px;
+    width: 100%;
+}
+
+/* readme section */
+.readme
+{
+    margin: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    float:left;
+    width: 50%;
+}
+
+/* social section */
+.social
+{
+    margin: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    float:right;
+    width: 50%;
+}
+
+#company a
+{
+    color: $sky1;
+    text-decoration: none;
+}
+
+#company a:hover
+{
+    color: $red;
+}
+
+/* Heading in readme section */
+.readme h4
+{
+    margin: 0px;
+    color: $white1;
+}
+
+/* Heading in social section */
+.social h4
+{
+    margin: 0px;
+    color: $white1;
+}
+
+/* Colours for fontawesome icons in company footer */
+#company .fab
+{
+    color: $sky1;
+}
+
+#company .fa
+{
+    color: $sky1;
+}
